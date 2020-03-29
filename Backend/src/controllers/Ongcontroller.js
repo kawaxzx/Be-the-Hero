@@ -1,5 +1,4 @@
-const connection =  require('../database/conecction');
-const crypto = require('crypto');
+const connection =  require('../database/connection');
 const generateUniqueid = require ('../utils/generateUniqueid');
 
 module.exports={

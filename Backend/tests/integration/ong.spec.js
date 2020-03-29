@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../../src/app');
-const connection = require('../../src/database/conecction');
+const connection = require('../../src/database/connection');
 
 describe('ONG', () => {
     beforeEach(async () => {
