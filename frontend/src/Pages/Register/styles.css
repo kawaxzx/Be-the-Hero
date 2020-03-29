@@ -46,7 +46,7 @@
 }
 
 .register-container .content form .input-group{
-    display: flex;
+    display: flex
 }
 
 .register-container .content form .input-group input + input {

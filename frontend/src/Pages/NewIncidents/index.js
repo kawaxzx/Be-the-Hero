@@ -35,7 +35,7 @@ export default function Register() {
 
          history.push('/profile');
       } catch(error) {
-         alert('Erro ao cadastrar caso, tente novamente.');
+         alert('Error registering incident, please try again');
       }
    }
 
@@ -45,34 +45,34 @@ export default function Register() {
             <section>
                <img src={logoImg} alt="Be The Hero"/>
 
-               <h1>Cadastrar novo caso</h1>
-               <p>Descreva o caso detalhadamente para encontrar um herói para resolver isso.</p>
+               <h1>Register new incident</h1>
+               <p>Describe the detailed incident to find a hero to solve this.</p>
 
                <Link className="back-link" to="/profile">
                   <FiArrowLeft size={16} />
-                  Voltar para home
+                  Go to home
                </Link>            
             </section>
 
             <form onSubmit={handleNewIncident}>
                <input 
-                  placeholder="Título do caso" 
+                  placeholder="Incident Title" 
                   value={title}
                   onChange={e => setTitle(e.target.value)}
                />
                <textarea 
-                  placeholder="Descrição" 
+                  placeholder="Description" 
                   value={description}
                   onChange={e => setDescription(e.target.value)}
                />
 
                <input 
-                  placeholder="Valor em reais" 
+                  placeholder="Value in USD" 
                   value={value}
                   onChange={e => setValue(e.target.value)}
                />
                
-               <button className="button" type="submit">Cadastrar</button>
+               <button className="button" type="submit">Register</button>
             </form>
          </div>
       </div>
