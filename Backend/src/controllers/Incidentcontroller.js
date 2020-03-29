@@ -20,14 +20,10 @@ module.exports = {
             'ongs.whatsapp',
             'ongs.city',
             'ongs.uf'
-        ]);
-            
-            
-        
+        ]);                            
         response.header('X-Total-Count', count['count(*)']);
 
         return response.json(incidents);
-
     },
 
 

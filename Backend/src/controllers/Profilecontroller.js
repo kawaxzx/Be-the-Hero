@@ -9,8 +9,6 @@ module.exports = {
             .select('*');
 
         return response.json(incidents); 
-
-
     }
 
 }
