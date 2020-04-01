@@ -45,7 +45,7 @@ export default function Detail(){
                             <Text style={styles.IncidentValue}>{incident.name} of {incident.city}/{incident.uf}</Text>  
 
                             <Text style={styles.IncidentProperty}>INCIDENT:</Text> 
-                            <Text style={styles.IncidentValue}>{incident.title}</Text>  
+                            <Text style={styles.IncidentValue}>{incident.description}</Text>  
 
                             <Text style={styles.IncidentProperty}>VALUE:</Text> 
                             <Text style={styles.IncidentValue}>{Intl.NumberFormat( 'en-US',{
