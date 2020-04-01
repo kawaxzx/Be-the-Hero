@@ -4,7 +4,7 @@
 
 Project of the Week Omnistack11 led by [RocketSeat](https://rocketseat.com.br)🚀
 
-The main idea was to create a platform where institutions around the world can register incidents so that other people can help. the example used was from an animal institution, but this project can be applied to all institutions in general
+The main idea was to create a platform where institutions around the world can register incidents so that other people can help, the example used was from an animal institution, but this project can be applied to all institutions in general
 
 
 # 📚 Stack
