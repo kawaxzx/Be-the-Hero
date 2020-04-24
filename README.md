@@ -50,7 +50,7 @@ The main idea was to create a platform where institutions around the world can r
 ![Mobile Open the app](https://i.imgur.com/eRYnjf9.png?1)
 
 ### 🏠 Home app
-![Mobile Home screen](https://i.imgur.com/Qig4WP6.png)
+![Mobile Home screen](https://i.imgur.com/Qig4WP6.png?1)
 
 ## 🔎 Detail of the Incident
 ![Mobile Detail](https://i.imgur.com/IeWyV8n.png?2)
